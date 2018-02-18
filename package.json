@@ -1,0 +1,20 @@
+{
+  "name": "swapi",
+  "version": "1.0.0",
+  "description": "Using API-swapi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandraCP/project-SWAPI.git"
+  },
+  "author": "Alejandra Cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandraCP/project-SWAPI/issues"
+  },
+  "homepage": "https://github.com/AlejandraCP/project-SWAPI#readme"
+}
