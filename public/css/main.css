@@ -1,0 +1,33 @@
+.star-logo {
+  background: url('../assets/images/starwars.jpg');
+  height: 50vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+p {
+  padding: 5rem;
+}
+
+.title {
+  height: 100vh;
+  opacity: rgba(43, 41, 41, 0.788);
+}
+
+.container-swapi {
+  margin-top: 2rem;
+}
+
+.container-image {
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px;
+}
