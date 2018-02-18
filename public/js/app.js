@@ -42,4 +42,11 @@ $containerSwapi.on("click", ".img-fluid", function() {
 
 function person(data, value) {
   $(".modal-title-characters").text(`${data.name}`);
+  $('.heigth').text(`${data.height}`);
+  $('.mass').text(`${data.mass}`);
+  $('.hair').text(`${data.hair_color}`);
+  $('.skin').text(`${data.skin_color}`);
+  $('.eye').text(`${data.eye_color}`);
+  $('.birth').text(`${data.birth_year}`);
+  $('.gender').text(`${data.gender}`);
 }

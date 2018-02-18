@@ -10,7 +10,7 @@
   font-size: 4rem;
 }
 
-p {
+.starwars {
   padding: 5rem;
 }
 
@@ -30,4 +30,8 @@ p {
 
 img {
   border-radius: 5px;
+}
+
+.bold {
+
 }
