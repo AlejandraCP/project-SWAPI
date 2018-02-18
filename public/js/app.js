@@ -41,6 +41,7 @@ $containerSwapi.on("click", ".img-fluid", function() {
 });
 
 function person(data, value) {
+  $(".img-char").attr("src", `https://starwars-visualguide.com/assets/img/characters/${value}.jpg`);
   $(".modal-title-characters").text(`${data.name}`);
   $('.heigth').text(`${data.height}`);
   $('.mass').text(`${data.mass}`);
